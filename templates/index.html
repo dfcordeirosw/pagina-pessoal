@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Página Pessoal</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#sobre">Sobre mim</a></li>
+
+                <li><a href="#projetos">Projetos</a></li>
+
+                <li><a href="#contato">Contato</a></li>
+
+            </ul>
+
+        </nav>
+
+        <h1>Daniele Cordeiro</h1>
+
+        <h2>Estudante de Engenharia de Software</h2>
+
+        <p>
+            Estou aprendendo desenvolvimento web com Python e Flask.
+            Atualmente sou estudante de Engenharia de Software e trabalho
+            como assistente administrativo em uma empresa terceirizada que
+            presta serviços para uma instituição pública. Meu objetivo é me
+            tornar desenvolvedora de software, construir uma carreira sólida
+            na área de tecnologia e conquistar oportunidades que me permitam
+            crescer profissionalmente.
+        </p>
+
+    </header>
+
+    <main class="conteudo">
+
+        <section id="sobre">
+
+            <h2>Sobre mim</h2>
+
+            <div class="sobre">
+
+                <img src="{{ url_for('static', filename='images/foto.jpg') }}"
+                     alt="Foto de Daniele"
+                     class="foto-perfil">
+
+                <div class="texto-sobre">
+
+                    <p>
+                        Olá! Meu nome é Daniele e sou estudante de Engenharia
+                        de Software. Atualmente trabalho como assistente
+                        administrativo e estou em processo de transição para
+                        a área de desenvolvimento de software.
+                    </p>
+
+                    <p>
+                        Tenho me dedicado aos estudos de Python, Flask, HTML
+                        e CSS, desenvolvendo projetos práticos para consolidar
+                        meus conhecimentos. Este portfólio faz parte dessa
+                        jornada e será atualizado conforme eu adquirir novas
+                        habilidades e criar novos projetos.
+                    </p>
+
+                    <p>
+                        Meu objetivo é construir uma carreira na área de
+                        tecnologia, aprendendo continuamente e desenvolvendo
+                        soluções que gerem valor para pessoas e empresas.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="projetos">
+
+            <h2>Projetos</h2>
+
+            <article>
+
+                <h3>Página Pessoal</h3>
+
+                <p>
+                    Este projeto apresenta meu perfil profissional e marca
+                    o início da minha jornada no desenvolvimento web. Foi
+                    desenvolvido com Python, Flask, HTML e CSS como parte
+                    dos meus estudos.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section id="contato">
+
+            <h2>Contato</h2>
+
+            <p>
+                Você pode entrar em contato comigo através dos links abaixo.
+            </p>
+
+            <div class="links-contato">
+
+               <a href="mailto:seuemail@email.com">
+                E-mail
+               </a>
+
+               <a href="https://github.com/">
+                GitHub
+               </a>
+
+               <a href="https://www.linkedin.com/">
+                LinkedIn
+               </a>
+           
+        </section>
+
+    </main>
+
+</body>
+
+</html>
