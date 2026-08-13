@@ -143,3 +143,19 @@ nav a:hover {
     }
 
 }
+
+.botao-projeto
+ {
+    display: inline-block;
+    background-color: #1f4e79;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: bold;
+ }
+
+ .botao-projeto:hover {
+    opacity: 0.8;
+ }
